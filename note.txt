@@ -70,3 +70,10 @@ also add a serializer for it in serializers.py
 22. add views for notes (listcreateapi and one destoryapi)
 
 07 commit
+
+23. add urls.py file to api app
+and include it in main urls.py
+
+24. make and apply migrations
+
+08 commit
