@@ -77,3 +77,24 @@ and include it in main urls.py
 24. make and apply migrations
 
 08 commit
+
+25. the url to view user's notes is the following:
+http://127.0.0.1:8000/api/notes/
+
+but this will not be accessible (without passing access token),
+and we will continue this with frontend.
+
+26. create frontend template
+> npm create vite@latest frontend -- --template react
+> cd frontend
+> npm install
+> npm install axios react-router-dom jwt-decode
+
+27. (css files can be deleted, but for now i'm keeping them, unless they cause error)
+28. clear out App.jsx
+29. inside frontend dir,
+create three new dirs: pages, styles, components
+craete some new files as well: constants.js, api.js
+
+30. create an env file in frontend dir
+09 commit
