@@ -24,3 +24,13 @@ also add load_dotenv() to settings.py file as well
 9. add rest_framework config var and SIMPLE_JWT config var
 
 10. 02 commit
+
+11. add api and others to installed_apps (rest_framework, corsheaders, simple_jwt)
+
+12. add cors middleware to middlewares config var (above common middleware)
+and also above whitenoise middleware that will be added later
+
+13. add cors_allowed_all_origins to settings.py
+and cors_allows_credentials
+
+14. 03 commit
