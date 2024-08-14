@@ -62,3 +62,7 @@ this is what the frontend will store, (usually in LocalStorage)
 http://127.0.0.1:8000/api/token/refresh/ (to refresh the access token using refresh token)
 if you pass the refresh token of user 'bob' in this route, a new access token will be returned
 
+21. add notes model to api/models.py
+also add a serializer for it in serializers.py
+
+06 commit
