@@ -38,3 +38,9 @@ and cors_allows_credentials
 15. add serializers.py to api app and add user serializer to it
 
 16. 04 commit
+
+17. add UserCreateView to api/views.py
+
+18. update main urls.py file
+
+05 commit
