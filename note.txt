@@ -66,3 +66,7 @@ if you pass the refresh token of user 'bob' in this route, a new access token wi
 also add a serializer for it in serializers.py
 
 06 commit
+
+22. add views for notes (listcreateapi and one destoryapi)
+
+07 commit
