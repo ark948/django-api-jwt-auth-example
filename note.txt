@@ -47,3 +47,18 @@ and cors_allows_credentials
 
 19. make and run migrations
 (small bug fixed in main urls.py file)
+
+20. check the following routes:
+
+http://127.0.0.1:8000/api/user/register/ (to register new users)
+create a new user: bob-loop123*
+
+http://127.0.0.1:8000/api/token/ (to obtain tokens)
+make post request with the credentials of the user created previously
+
+if POST was successful, two tokens should be returned, access token and refresh token.
+this is what the frontend will store, (usually in LocalStorage)
+
+http://127.0.0.1:8000/api/token/refresh/ (to refresh the access token using refresh token)
+if you pass the refresh token of user 'bob' in this route, a new access token will be returned
+
