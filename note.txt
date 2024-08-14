@@ -6,6 +6,17 @@
 > pip install -r requirements.txt
 
 3. initialize git repo and create .gitignore file
-> git init
 
 4. create new django project
+
+5. make base commit and push
+
+6. navigate to backend dir, and add api app
+> python manage.py startapp api
+
+7. settings.py > import timedelta from datetime and load_dotenv from dotenv
+and also os
+(for refresh token time length and env variables i think)
+also add load_dotenv() to settings.py file as well
+
+8. update allowed_hosts to allow all using "*"
