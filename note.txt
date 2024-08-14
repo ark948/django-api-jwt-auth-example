@@ -9,7 +9,7 @@
 
 4. create new django project
 
-5. make base commit and push
+5. make base commit and push, 01 commit
 
 6. navigate to backend dir, and add api app
 > python manage.py startapp api
@@ -20,3 +20,7 @@ and also os
 also add load_dotenv() to settings.py file as well
 
 8. update allowed_hosts to allow all using "*"
+
+9. add rest_framework config var and SIMPLE_JWT config var
+
+10. 02 commit
