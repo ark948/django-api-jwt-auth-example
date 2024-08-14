@@ -44,3 +44,6 @@ and cors_allows_credentials
 18. update main urls.py file
 
 05 commit
+
+19. make and run migrations
+(small bug fixed in main urls.py file)
