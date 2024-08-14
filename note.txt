@@ -1,0 +1,11 @@
+1. new virtual environment and activate it
+> python -m venv env
+> env/Scripts/activate
+
+2. provide requirements.txt or install packages manually one by one
+> pip install -r requirements.txt
+
+3. initialize git repo and create .gitignore file
+> git init
+
+4. create new django project
