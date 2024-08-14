@@ -34,3 +34,7 @@ and also above whitenoise middleware that will be added later
 and cors_allows_credentials
 
 14. 03 commit
+
+15. add serializers.py to api app and add user serializer to it
+
+16. 04 commit
