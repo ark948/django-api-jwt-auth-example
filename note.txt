@@ -98,3 +98,9 @@ craete some new files as well: constants.js, api.js
 
 30. create an env file in frontend dir
 09 commit
+
+31. define frontend constants in constants.js (not sure what this is yet)
+32. create axios api instance with an interceptor to include access token...
+in every request in api.js and export it
+
+10 commit
