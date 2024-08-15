@@ -29,6 +29,7 @@ function App() {
         {/* because it is a protected route */}
         <Route  path='/' element={<ProtectedRoute><Home /></ProtectedRoute>}/>
         <Route path='/login' element={<Login />} />
+        <Route path='/logout' element={<Logout />} />
         <Route path='/Register' element={<RegisterAndLogout />} />
 
         {/* any other routes, results to 404 */}
